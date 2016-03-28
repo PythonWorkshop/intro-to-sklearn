@@ -15,7 +15,7 @@
 * Add python2.7 to kernelspec
   a. `activate python2`
   * ensure ipython2 is installed in python2 env
-  * c:\Miniconda3\envs\python2\Scripts\ipython2.exe kernel install --name python2 --display-name "Python 2"
+  * `c:\Miniconda3\envs\python2\Scripts\ipython2.exe kernel install --name python2 --display-name "Python 2"`
   * on cmd line: `deactivate` (to get out of python 2 env)
 * on cmd line: `jupyter notebook`
 * Confirm a user R lib path is in .libPaths() and if need to add do: .libPaths("C:/Users/michhar/Documents/R/win-library/3.2")
