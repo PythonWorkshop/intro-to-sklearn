@@ -122,12 +122,19 @@ def plot_kmeans_interactive(min_clusters=1, max_clusters=6):
     from sklearn.datasets.samples_generator import make_blobs
 
     with warnings.catch_warnings():
-        warnings.filterwarnings('ignore')
+        #warnings.filterwarnings('ignore')
 
-        X, y = make_blobs(n_samples=300, centers=4,
-                          random_state=0, cluster_std=0.60)
+        from sklearn.datasets import load_iris
+        from sklearn.decomposition import PCA
 
-        def _kmeans_step(frame=0, n_clusters=4):
+        iris = load_iris()
+        X, y = iris.data, iris.target
+        pca = PCA(n_components = 0.95) # keep 95% of variance
+        X = pca.fit_ttransform(X)
+        #X = X[:, 1:3]
+
+
+        def _kmeans_step(frame=0, n_clusters=3):
             rng = np.random.RandomState(2)
             labels = np.zeros(X.shape[0])
             centers = rng.randn(n_clusters, 2)
