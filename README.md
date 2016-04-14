@@ -2,9 +2,9 @@
 
 The material is in jupyter notebook format and using a python 3 kernel.  
 
-The notebooks cover introductory material to ML, ML with sklearn and tips.  The big module is Intro_ML_sklearn.  This module is broken down into submodules.
+The notebooks cover introductory material to ML, ML with sklearn and tips.
 
-Also, included is a brief introductory guide to jupyter notebooks in Notebook_anatomy.
+Also, included is a brief introductory guide to jupyter notebooks in Notebook_anatomy notebook.
 
 ## Installation Notes
 
@@ -47,7 +47,17 @@ The easiest way to get these is to use the [conda] (https://www.continuum.io/why
 	
 	$ conda install numpy scipy matplotlib scikit-learn jupyter
 
----
+## Other install options
+
+There are many different ways to install python and the package ecosystem for machine learning.  They are not all going to be covered here, but essentially you have three choices:
+
+1. anaconda/miniconda aka conda
+2. download python and pip install packages
+3. use a docker image ([this](https://hub.docker.com/r/wi3o/skflow-jupyternb/) is one for jupyter+sklearn+skflow+tensorflow)
+
+Or a combination of the above.
+
+A quick tip if you are installing in a non-conda way with `pip` and are on Windows, many of the data analysis packages are tricky (compiled dependencies) to install.  A nice "unofficial" repository for binaries of packages like `numpy` and a myriad of others was created and maintained by Christoph Gohlke.  This site is [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/).
 ## What's next
 
 The next tutorial in this workshop is on `tensorflow` and the installation instructions are in this [README](https://github.com/PythonWorkshop/intro-to-tensorflow/blob/master/README.md)
