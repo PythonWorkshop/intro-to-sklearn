@@ -47,3 +47,7 @@ The easiest way to get these is to use the [conda] (https://www.continuum.io/why
 	
 	$ conda install numpy scipy matplotlib scikit-learn jupyter
 
+---
+## What's next
+
+The next tutorial in this workshop is on `tensorflow` and the installation instructions are in this [README](https://github.com/PythonWorkshop/intro-to-tensorflow/blob/master/README.md)
