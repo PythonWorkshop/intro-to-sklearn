@@ -30,8 +30,10 @@ Also, included is a brief introductory guide to jupyter notebooks in Notebook_an
   * ensure ipython/ipython2 is installed in python2 env (do `pip install ipython ipykernel`)
 	  * Windows: `c:\Miniconda3\envs\python2\Scripts\ipython2.exe kernel install --name python2 --display-name "Python 2"`
 	  * Linux/OSX: `ipython2 kernel install --name python2 --display-name "Python 2"` (may need `sudo`)
-  * on cmd line: `deactivate` (to get out of python 2 env)
-* `jupyter notebook` will start a notebook service for accessing notebooks in your browser (wherever you run this, it will be the base directory for the notebook service)
+  * on command line: `deactivate` (to get out of python 2 env)
+* On command line, `jupyter notebook` will <b>start a notebook service</b> locally for accessing notebooks in your browser (wherever you run this, it will be the base directory for the notebook service).  Drill down on the home page to your notebook of interest.
+
+For a notebook primer go to Notebook_anatomy.ipynb on this repo.  The very short story is: to execute a cell just hit <b>Shift-Enter</b>.  There are many more shortcuts in primer.
 
 ## Installing python packages
 
@@ -54,10 +56,12 @@ There are many different ways to install python and the package ecosystem for ma
 1. anaconda/miniconda aka conda
 2. download python and pip install packages
 3. use a docker image ([this](https://hub.docker.com/r/wi3o/skflow-jupyternb/) is one for jupyter+sklearn+skflow+tensorflow)
+4. [Google cloud platform](https://cloud.google.com/) has a jupyter notebook service called Datalab.  It has tensorflow pre-installed (needed for next tutorial).
 
 Or a combination of the above.
 
 A quick tip if you are installing in a non-conda way with `pip` and are on Windows, many of the data analysis packages are tricky (compiled dependencies) to install.  A nice "unofficial" repository for binaries of packages like `numpy` and a myriad of others was created and maintained by Christoph Gohlke.  This site is [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/).
+
 ## What's next
 
 The next tutorial in this workshop is on `tensorflow` and the installation instructions are in this [README](https://github.com/PythonWorkshop/intro-to-tensorflow/blob/master/README.md)
