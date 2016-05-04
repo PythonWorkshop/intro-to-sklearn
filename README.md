@@ -81,3 +81,5 @@ A quick tip if you are installing in a non-conda way with `pip` and are on Windo
 ## What's next
 
 The next tutorial in this workshop is on `tensorflow` and the installation instructions are in this [README](https://github.com/PythonWorkshop/intro-to-tensorflow/blob/master/README.md)
+
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/PythonWorkshop/intro-to-sklearn)
