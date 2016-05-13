@@ -22,7 +22,7 @@ pip install auxlib conda
 
 ### Initializing a Conda environment
 
-* To setup a specific development environment for this project, you can run:
+* To setup a python 2.7 development environment in addition to your python 3 conda install for this project (done after installing [miniconda3](http://conda.pydata.org/docs/install/quick.html)), you can run:
   * `conda create --name sklearn python=2`
   * This installs into `C:\Miniconda3\envs\python2\` so I added this to system path (on Windows)
   * On Linux and OS/X, this depends on where the Python Framework is installed. On OS/X using Homebrew, this installs into `/usr/local/Cellar/python/2.7.10_2/Frameworks/Python.framework/Versions/2.7/envs/python2/bin`
