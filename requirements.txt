@@ -4,5 +4,6 @@ scipy==0.17.0
 matplotlib==1.5.1
 scikit-learn==0.17.1
 seaborn==0.7.0
+jupyter==1.0.0
 ipython==4.1.2
 skflow==0.1.0
