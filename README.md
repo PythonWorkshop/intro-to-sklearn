@@ -1,10 +1,10 @@
 ## What's in this tutorial
 
-The material is in jupyter notebook format and using a python 3 kernel.  
+The notebooks are a modular introduction to machine learning in python using `scikit-learn` with examples and tips.
 
-The notebooks cover introductory material to ML, ML with sklearn and tips.
+The material is in jupyter notebook format and was designed to be compatible with Python >= 2.6 or >= 3.3.  To use these notebooks interatively (intended use), you will need a jupyter/ipython notebook install (see below).
 
-Also, included is a brief introductory guide to jupyter notebooks in Notebook_anatomy notebook.
+Also, included is a brief introductory guide to jupyter notebooks in Notebook_anatomy notebook.  If you are unfamiliar with jupyter/ipython notebooks, please take some time to look at this file.
 
 ## Installation Notes
 
