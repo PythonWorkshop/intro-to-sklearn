@@ -10,6 +10,8 @@ Also, included is a brief introductory guide to jupyter notebooks in Notebook_an
 
 ### Setting up a development environment
 
+> Note: the requirements.txt file above is a snapshot of the latest `pip` installed packages from a successful ML ecosystem.  `conda` should install the best dependencies for the `scikit-learn` used and may have different versions.
+
 It is generally best practice to have a distinct development environment for various Python projects. There are multiple options available to do this such as virtualenv and Conda. For this project, we will be using the [Conda](https://www.continuum.io/why-anaconda) environment.
 
 To get started, you can install [miniconda3](http://conda.pydata.org/docs/install/quick.html) to get python3 as well as python2.
