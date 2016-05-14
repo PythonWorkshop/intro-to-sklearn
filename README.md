@@ -75,10 +75,10 @@ We have also provided a requirements.txt file above for use with pip.
 
 There are many different ways to install python and the package ecosystem for machine learning.  They are not all going to be covered here, but essentially you have the following choices:
 
-1. anaconda/miniconda aka conda
+1. anaconda/miniconda aka conda (shown above)
 2. download python and pip install packages
 3. use a docker image ([this](https://hub.docker.com/r/wi3o/skflow-jupyternb/) is one for jupyter+sklearn+skflow+tensorflow)
-4. [Google cloud platform](https://cloud.google.com/) has a jupyter notebook service called Datalab.  It has tensorflow pre-installed (needed for next tutorial).
+4. [Google cloud platform](https://cloud.google.com/) has a jupyter notebook service called Datalab (quickstart [here](https://cloud.google.com/datalab/docs/quickstart)).  It has tensorflow pre-installed (needed for next tutorial).
 5. Click the Binder link at the bottom of this page to deploy a notebook setup.
 
 Or a combination of the above.
