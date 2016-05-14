@@ -8,6 +8,8 @@ Also, included is a brief introductory guide to jupyter notebooks in Notebook_an
 
 ## Installation Notes
 
+> For a quick deployment, simply click the `launch binder` link at the bottom of this page.  However, we recommend a local install for more customizable setups, flexibility and possiblities.
+
 ### Setting up a development environment
 
 > Note: the requirements.txt file above is a snapshot of the latest `pip` installed packages from a successful ML ecosystem.  `conda` should install the best dependencies for the `scikit-learn` used and may have different versions.
